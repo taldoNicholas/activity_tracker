@@ -7,11 +7,9 @@
 
 ---
 
-## 📖 Descrição
+## 🏃‍♂ Como rodar o projeto
 
-**APTOGarden** é uma aplicação web desenvolvida inicialmente para a disciplina de **Desenvolvimento Web I** e expandida em **Desenvolvimento Web II**, com o objetivo de criar uma **plataforma para gerenciamento de uma fazenda urbana**.
 
-Nesta nova etapa, o sistema está sendo aprimorado com **operações CRUD completas** (Criar, Ler, Atualizar, Deletar), integrando **NestJS, Node.js e MongoDB** no backend. A interface foi planejada no **Figma** com foco em experiência do usuário e responsividade.
 
 ---
 
