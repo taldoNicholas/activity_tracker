@@ -25,6 +25,10 @@ Após compilar o projeto, através do comando *npx serve* (um comando que roda o
 
 ![Evidência Build Web](assets/images/evidenciasServidornpx.png)
 
+Segue exemplo de execução de aplicação abaixo:
+
+![Evidência Execucao Web](assets/gifs/gifExecucaoAplicacao.gif)
+
 
 
 
