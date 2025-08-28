@@ -19,11 +19,11 @@ O Activity Tracker é uma aplicação feita em flutter que funciona como lista d
 
 Para rodar o projeto, primeiro compilei o projeto flutter para web utilizando o comando *flutter build web*:
 
-![Evidência Build Web](blob/evidenciasBuildweb.png)
+![Evidência Build Web](assets/images/evidenciasBuildweb.png)
 
 Após compilar o projeto, através do comando *npx serve* (um comando que roda o pacote serve escrito em Node.js, permitindo executar pacotes NPM sem instalar-os globalmente), rodei a aplicação em web em um servidor local:
 
-![Evidência Build Web](blob/evidenciasServidornpx.png)
+![Evidência Build Web](assets/images/evidenciasServidornpx.png)
 
 
 
