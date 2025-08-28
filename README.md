@@ -9,7 +9,9 @@
 
 ##  Como rodar o projeto:
 
-Para rodar o projeto, compilei o 
+Para rodar o projeto, compilei o projeto flutter para web utilizando o comando *flutter build web*:
+
+![Logo](../assets/images/evidenciasBuildweb.png)
 
 
 
