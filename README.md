@@ -36,17 +36,14 @@ Segue exemplo de execução de aplicação abaixo:
 
 ##  Funcionalidades
 
-- Navegação intuitiva entre as páginas (Início, Sobre, Formulário, Tabela)
-- Design responsivo e acessível
-- Estruturação de informações em tabela
-- Dashboard com estatísticas de vendas e produtos populares
-- CRUD completo de:
-  - 👥 Usuários
-  - 📦 Estoque de Produtos
-  - 🚚 Entregadores
-- Pesquisa e paginação de dados
-- Design responsivo e acessível
-- Navegação lateral intuitiva
+- Criação de tarefas com título e descrição;
+- Validação de campos em título e descrição (não permitir inserir vazio);
+- Navegação de telas entre botões superiores;
+- Exibição de lista de tarefas criadas;
+- Opções de definir como concluídas (check = concluída; uncheck = em progresso);
+- Opção de excluir tarefas;
+- Funcionalidade extra: lista de tarefas populada através de api externa, com leitura de status de concluída (chave: completed , valor booleano: true ou false);
+- Persistência de dados na aplicação através do uso de sharedPreferences.
 
 ---
 
