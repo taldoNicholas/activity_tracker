@@ -11,7 +11,7 @@
 
 Para rodar o projeto, compilei o projeto flutter para web utilizando o comando *flutter build web*:
 
-![Evidência Build Web](../assets/images/evidenciaBuildweb.png)
+![Evidência Build Web](blob/evidenciasBuildweb.png)
 
 
 
