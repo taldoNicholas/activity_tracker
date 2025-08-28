@@ -1,6 +1,6 @@
 #  Activity Tracker
 
-O Activity Tracker é uma aplicação feita em flutter que funciona como lista de tarefas (to-do list), com o objetivo de otimizar a produtividade de seus usuários, permitindo-lhes saber o que fazer, como fazer e quando fazer suas tarefas.
+O Activity Tracker é uma aplicação feita em flutter que funciona como lista de tarefas (to-do list), com o objetivo de otimizar a produtividade de seus usuários, permitindo-lhes saber o que fazer e quando fazer suas tarefas.
 
 **Feito por:** 
 - [Nicholas](https://github.com/taldoNicholas)
