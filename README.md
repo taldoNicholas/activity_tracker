@@ -9,9 +9,13 @@
 
 ##  Como rodar o projeto:
 
-Para rodar o projeto, compilei o projeto flutter para web utilizando o comando *flutter build web*:
+Para rodar o projeto, primeiro compilei o projeto flutter para web utilizando o comando *flutter build web*:
 
 ![Evidência Build Web](blob/evidenciasBuildweb.png)
+
+Após compilar o projeto, através do comando npx serve, rodei a aplicação em web em um servidor local.
+
+![Evidência Build Web](blob/evidenciasServidornpx.png)
 
 
 
