@@ -1,7 +1,7 @@
 #  Activity Tracker
 
 
-** Feito por:** 
+**Feito por:** 
 - [Nicholas](https://github.com/taldoNicholas)
 - - [Linkedin](https://www.linkedin.com/in/nicholashcrangel/)
 
