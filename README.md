@@ -37,9 +37,9 @@ Segue exemplo de execução de aplicação abaixo:
 - Validação de campos em título e descrição (não permitir inserir vazio);
 - Navegação de telas entre botões superiores;
 - Exibição de lista de tarefas criadas;
-- Opções de definir como concluídas (check = concluída; uncheck = em progresso);
+- Opções de definir como concluídas (*check = concluída; uncheck = em progresso*);
 - Opção de excluir tarefas;
-- Funcionalidade extra: lista de tarefas populada através de api externa, com leitura de status de concluída (chave: completed , valor booleano: true ou false);
+- Funcionalidade extra: lista de tarefas populada através de api externa, com leitura de status de concluída (*chave: completed , valor booleano: true ou false*);
 - Persistência de dados na aplicação através do uso de sharedPreferences;
 - Responsividade no design para execução WEB em aparelhos desktop e portáteis.
 
