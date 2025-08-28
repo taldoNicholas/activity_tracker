@@ -57,7 +57,7 @@ Durante o desenvolvimento do projeto, aprendi:
 
 ## Quais dificuldades encontrei:
 
-Enquanto desenvolvi esta aplicação, tive dificuldades em:
--
+-Enquanto desenvolvi esta aplicação, tive dificuldades em:
+
 
 
