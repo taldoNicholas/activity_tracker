@@ -31,7 +31,7 @@ Segue exemplo de execução de aplicação abaixo:
 
 ---
 
-##  Funcionalidades
+##  Funcionalidades:
 
 - Criação de tarefas com título e descrição;
 - Validação de campos em título e descrição (não permitir inserir vazio);
@@ -44,5 +44,13 @@ Segue exemplo de execução de aplicação abaixo:
 - Responsividade no design para execução WEB em aparelhos desktop e portáteis.
 
 ---
+
+## O que aprendi:
+
+Durante o desenvolvimento do projeto, aprendi:
+
+- Noções básicas de desenvolvimento com a linguagem de programação *Dart* da Google (Durante o desenvolvimento com a linguagem *dart*, consegui aprimorar meus conceitos de linguagem de programação orientada à objeto);
+- Noções báscias de design com framework UI *Flutter* da Google (Durante o desenvolvimento, consegui aprimorar conceitos de design front-end, além de adquirir conceitos de responsividade nativa com *Flutter* e design baseado/semelhante à interfaces *Android*);
+- Boas práticas de versionamento de código (Durante o desenvolvimento da aplicação, consegui aprimorar minhas habilidades de versionamento de código com o *git-BASH*.
 
 
