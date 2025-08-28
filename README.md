@@ -10,7 +10,7 @@ O Activity Tracker é uma aplicação feita em flutter que funciona como lista d
 
 ## ⚙ Tecnologias Utilizadas
 
-- Figma (prototipação/mock-up);
+- Figma (prototipação/mock-up) - https://www.figma.com/design/3ZAh8TxBbedKVK5qGJIKCb/Activity-Tracker---mockup?node-id=0-1&t=kCSYAZCnW10qyb8Z-1 ;
 - Flutter (compilado para web).
 
 ---
