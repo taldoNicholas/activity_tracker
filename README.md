@@ -57,7 +57,11 @@ Durante o desenvolvimento do projeto, aprendi:
 
 ## Quais dificuldades encontrei:
 
--Enquanto desenvolvi esta aplicação, tive dificuldades em:
+Enquanto desenvolvi esta aplicação, tive dificuldades em:
+- Boas práticas de prototipação (Durante a confecção do mock-up, aprimorei minhas habilidades em prototipação de sistemas, melhorando minhas noções de identidade visual, paleta de cores e design *UI/UX*);
+- Noções básicas de desenvolvimento com a linguagem de programação *Dart* da Google (Durante o desenvolvimento com a linguagem *dart*, consegui aprimorar meus conceitos de linguagem de programação orientada à objeto, além de melhorar também minha lógica de programação em geral.);
+- Noções báscias de design com framework UI *Flutter* da Google (Durante o desenvolvimento, consegui aprimorar conceitos de design front-end, além de adquirir conceitos de responsividade nativa com *Flutter* e design baseado/semelhante à interfaces *Android*);
+- Boas práticas de versionamento de código (Durante o desenvolvimento da aplicação, consegui aprimorar minhas habilidades de versionamento de código com o *git-BASH*.
 
 
 
