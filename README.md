@@ -8,7 +8,7 @@ O Activity Tracker é uma aplicação feita em flutter que funciona como lista d
 
 ---
 
-## ⚙ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Figma (prototipação/mock-up) - https://www.figma.com/design/3ZAh8TxBbedKVK5qGJIKCb/Activity-Tracker---mockup?node-id=0-1&t=kCSYAZCnW10qyb8Z-1 ;
 - Flutter (compilado para web).
@@ -29,9 +29,6 @@ Segue exemplo de execução de aplicação abaixo:
 
 ![Evidência Execucao Web](assets/gifs/gifExecucaoAplicacao.gif)
 
-
-
-
 ---
 
 ##  Funcionalidades
@@ -43,7 +40,8 @@ Segue exemplo de execução de aplicação abaixo:
 - Opções de definir como concluídas (check = concluída; uncheck = em progresso);
 - Opção de excluir tarefas;
 - Funcionalidade extra: lista de tarefas populada através de api externa, com leitura de status de concluída (chave: completed , valor booleano: true ou false);
-- Persistência de dados na aplicação através do uso de sharedPreferences.
+- Persistência de dados na aplicação através do uso de sharedPreferences;
+- Responsividade no design para execução WEB em aparelhos desktop e portáteis.
 
 ---
 
