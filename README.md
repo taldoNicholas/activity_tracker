@@ -1,5 +1,6 @@
 #  Activity Tracker
 
+O Activity Tracker é uma aplicação feita em flutter que funciona como lista de tarefas (to-do list), com o objetivo de otimizar a produtividade de seus usuários, permitindo-lhes saber o que fazer, como fazer e quando fazer suas tarefas.
 
 **Feito por:** 
 - [Nicholas](https://github.com/taldoNicholas)
@@ -7,7 +8,7 @@
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+## ⚙ Tecnologias Utilizadas
 
 - Figma (prototipação/mock-up);
 - Flutter (compilado para web).
@@ -29,7 +30,7 @@ Após compilar o projeto, através do comando *npx serve* (um comando que roda o
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - Navegação intuitiva entre as páginas (Início, Sobre, Formulário, Tabela)
 - Design responsivo e acessível
