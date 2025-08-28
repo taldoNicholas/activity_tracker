@@ -13,7 +13,7 @@ Para rodar o projeto, primeiro compilei o projeto flutter para web utilizando o 
 
 ![Evidência Build Web](blob/evidenciasBuildweb.png)
 
-Após compilar o projeto, através do comando npx serve, rodei a aplicação em web em um servidor local.
+Após compilar o projeto, através do comando *npx serve* (um comando que roda o pacote serve escrito em Node.js), rodei a aplicação em web em um servidor local:
 
 ![Evidência Build Web](blob/evidenciasServidornpx.png)
 
