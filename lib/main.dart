@@ -143,16 +143,27 @@ class _HomePageState extends State<HomePage> {
     await prefs.setString('tasks', tasksJson);
   }
 
+  void _showSnackBar(String message, Color color) {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(message),
+        backgroundColor: color,
+        behavior: SnackBarBehavior.floating,
+        margin: EdgeInsets.only(
+          top: 100,
+          left: MediaQuery.of(context).size.width - 250,
+          right: 16.0,
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        leading: IconButton(
-          icon: const Icon(Icons.menu, color: Colors.white),
-          onPressed: () {},
-        ),
         title: Image.asset(
           'assets/images/activityTrackerlogo.png',
           height: 30,
@@ -219,26 +230,24 @@ class _HomePageState extends State<HomePage> {
                     const SizedBox(height: 30),
                     ElevatedButton(
                       onPressed: () {
-                        if (_titleController.text.isNotEmpty) {
+                        String title = _titleController.text.trim();
+                        String description = _descriptionController.text.trim();
+
+                        if (title.isEmpty) {
+                          _showSnackBar('O título da tarefa não pode estar vazio!', const Color.fromARGB(255, 255, 255, 255));
+                        }
+                        if (description.isEmpty){
+                          _showSnackBar('A descrição da tarefa não pode estar vazia!', const Color.fromARGB(255, 255, 255, 255));
+                        }
+                         else {
                           tasks.add(Task(
-                            title: _titleController.text,
-                            description: _descriptionController.text,
+                            title: title,
+                            description: description,
                           ));
                           _saveTasks();
                           _titleController.clear();
                           _descriptionController.clear();
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(
-                              content: const Text('Tarefa salva com sucesso!'),
-                              backgroundColor: const Color(0xFF1E88E5),
-                              behavior: SnackBarBehavior.floating,
-                              margin: EdgeInsets.only(
-                                top: 100,
-                                left: MediaQuery.of(context).size.width - 250,
-                                right: 16.0,
-                              ),
-                            ),
-                          );
+                          _showSnackBar('Tarefa salva com sucesso!', const Color(0xFF1E88E5));
                         }
                       },
                       child: const Text('Salvar'),
@@ -311,10 +320,6 @@ class _TaskListPageState extends State<TaskListPage> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        leading: IconButton(
-          icon: const Icon(Icons.menu, color: Colors.white),
-          onPressed: () {},
-        ),
         title: Image.asset(
           'assets/images/activityTrackerlogo.png',
           height: 30,
@@ -349,10 +354,12 @@ class _TaskListPageState extends State<TaskListPage> {
           Expanded(
             child: Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Expanded(
+              child: LayoutBuilder(
+                builder: (context, constraints) {
+                  final double screenWidth = constraints.maxWidth;
+                  final bool isMobile = screenWidth < 600;
+
+                  Widget localTasksColumn = Expanded(
                     child: Container(
                       decoration: BoxDecoration(
                         color: const Color(0xFF1E1E1E),
@@ -405,9 +412,9 @@ class _TaskListPageState extends State<TaskListPage> {
                         ],
                       ),
                     ),
-                  ),
-                  const SizedBox(width: 16),
-                  Expanded(
+                  );
+
+                  Widget apiTasksColumn = Expanded(
                     child: Container(
                       decoration: BoxDecoration(
                         color: const Color(0xFF1E1E1E),
@@ -437,8 +444,25 @@ class _TaskListPageState extends State<TaskListPage> {
                         ],
                       ),
                     ),
-                  ),
-                ],
+                  );
+
+                  return isMobile
+                      ? Column(
+                          children: [
+                            localTasksColumn,
+                            const SizedBox(height: 16),
+                            apiTasksColumn,
+                          ],
+                        )
+                      : Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            localTasksColumn,
+                            const SizedBox(width: 16),
+                            apiTasksColumn,
+                          ],
+                        );
+                },
               ),
             ),
           ),
