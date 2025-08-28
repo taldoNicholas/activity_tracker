@@ -7,6 +7,13 @@
 
 ---
 
+## ⚙️ Tecnologias Utilizadas
+
+- Figma (prototipação/mock-up);
+- Flutter (compilado para web).
+
+---
+
 ##  Como rodar o projeto:
 
 Para rodar o projeto, primeiro compilei o projeto flutter para web utilizando o comando *flutter build web*:
@@ -37,11 +44,5 @@ Após compilar o projeto, através do comando *npx serve* (um comando que roda o
 - Navegação lateral intuitiva
 
 ---
-
-## ⚙️ Tecnologias Utilizadas
-
-### 🎨 Front-end
-- Figma (prototipação/mock-up);
-- Flutter (compilado para web).
 
 
