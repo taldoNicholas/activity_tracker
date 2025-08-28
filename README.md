@@ -1,13 +1,15 @@
 #  Activity Tracker
 
 
-**👨‍💻 Feito por:** 
+** Feito por:** 
 - [Nicholas](https://github.com/taldoNicholas)
 - - [Linkedin](https://www.linkedin.com/in/nicholashcrangel/)
 
 ---
 
-## 🏃‍♂ Como rodar o projeto
+##  Como rodar o projeto:
+
+Para rodar o projeto, compilei o 
 
 
 
