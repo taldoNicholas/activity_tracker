@@ -50,18 +50,28 @@ Segue exemplo de execução de aplicação abaixo:
 Durante o desenvolvimento do projeto, aprendi:
 - Boas práticas de prototipação (Durante a confecção do mock-up, aprimorei minhas habilidades em prototipação de sistemas, melhorando minhas noções de identidade visual, paleta de cores e design *UI/UX*);
 - Noções básicas de desenvolvimento com a linguagem de programação *Dart* da Google (Durante o desenvolvimento com a linguagem *dart*, consegui aprimorar meus conceitos de linguagem de programação orientada à objeto, além de melhorar também minha lógica de programação em geral.);
-- Noções báscias de design com framework UI *Flutter* da Google (Durante o desenvolvimento, consegui aprimorar conceitos de design front-end, além de adquirir conceitos de responsividade nativa com *Flutter* e design baseado/semelhante à interfaces *Android*);
+- Noções básicas de design com framework UI *Flutter* da Google (Durante o desenvolvimento, consegui aprimorar conceitos de design front-end, além de adquirir conceitos de responsividade nativa com *Flutter* e design baseado/semelhante à interfaces *Android*);
 - Boas práticas de versionamento de código (Durante o desenvolvimento da aplicação, consegui aprimorar minhas habilidades de versionamento de código com o *git-BASH*.
+- Uso da biblioteca *shared_Preferences* (Durante o desenvolvimento da aplicação, aprendi sobre a biblioteca *shared_Preferences* e a sua importância, além de entender seus usos para dados leves, como por exemplo, tokens, cookies ou preferências de idioma).
 
 ---
 
 ## Quais dificuldades encontrei:
 
 Enquanto desenvolvi esta aplicação, tive dificuldades em:
-- Boas práticas de prototipação (Durante a confecção do mock-up, aprimorei minhas habilidades em prototipação de sistemas, melhorando minhas noções de identidade visual, paleta de cores e design *UI/UX*);
-- Noções básicas de desenvolvimento com a linguagem de programação *Dart* da Google (Durante o desenvolvimento com a linguagem *dart*, consegui aprimorar meus conceitos de linguagem de programação orientada à objeto, além de melhorar também minha lógica de programação em geral.);
-- Noções báscias de design com framework UI *Flutter* da Google (Durante o desenvolvimento, consegui aprimorar conceitos de design front-end, além de adquirir conceitos de responsividade nativa com *Flutter* e design baseado/semelhante à interfaces *Android*);
-- Boas práticas de versionamento de código (Durante o desenvolvimento da aplicação, consegui aprimorar minhas habilidades de versionamento de código com o *git-BASH*.
+- Sintaxe, Lógica da linguagem *Dart* e de Programação Orientada à Objeto (Durante o desenvolvimento, precisei recorrer ao ChatGPT da OpenAI e ao Gemini da Google para gerar "esqueletos" do código e conseguir compreender como aplicar a linguagem *Dart* em conjunto com a framework *Flutter* para desenvolver telas baseadas na lógica e síntaxe dos sistemas Google);
+- Desenvolvimento de interfaces por Widgets na framework *Flutter* (Enquanto desenvolvi, precisei recorrer à Documentação do *Flutter* e também utilizar ferramentas IA para entender a "lógica de desenvolvimento UI/UX" do *Flutter* e como a linguagem *Dart* e sua base orientada à objetos designa as práticas de desenvolvimento de telas);
+- Uso de APIs em geral (Tive que revisar chamadas de *API* em *Javascript* e *JQuery* para poder relembrar aplicar conceitos aprendidos posteriormente no desenvolvimento da funcionalidade extra);
+- Aplicação de responsividade em designs WEB (Tive que utilizar ferramentas IA para compreender lógicas, conceitos e parâmetros de responsividade em *Flutter*, como o uso de *LayoutBuilder*, que constroi widgets com restrições de tamanho baseadas no widget pai).
 
+---
+
+## O que faria melhor com mais tempo:
+
+Com mais tempo de desenvolvimento, melhoraria:
+- A síntaxe em geral, buscando otimizar o código e integrar arquivos distintos, ao invés de construir toda a aplicação na classe main;
+- Integração de classes em *Dart*, seguindo os padrões de POO;
+- Estilização geral dos widgets (Com mais prática e familiarização com a framework, seria possível estilizar de forma mais técnica);
+- Aprofundamento de conceitos de UI/UX (Também, com mais familiarização com a framework, seria possível idealizar e estilizar de acordo com normas e padrões).
 
 
